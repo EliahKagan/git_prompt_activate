@@ -1,4 +1,4 @@
-# git\_prompt\_activate - puts formatted __git_ps1 in $PS1
+# git\_prompt\_activate - puts formatted \_\_git\_ps1 in $PS1
 
 *Written in 2019 by Eliah Kagan \<degeneracypressure@gmail.com\>.*
 
