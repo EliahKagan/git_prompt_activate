@@ -13,7 +13,7 @@ this software. If not, see
 This project provides a script that, when sourced in Bash, writes information
 about the Git repository you're inside (if any) in the shell's primary prompt.
 
-This is an alterantive to changing existing lines in shell rcfiles that define
+This is an alternative to changing existing lines in shell rc files that define
 or modify `$PS1`. Instead of doing that, I wrote this file, which I source on
 most of my machines where I use `git`.
 
@@ -25,7 +25,8 @@ most of my machines where I use `git`.
     cp .git_prompt_activate.bash ~
     ```
 
-2. Edit `.bashrc` (such as by running `nano ~/.bashrc`) and add this at/near the end:
+2. Edit `.bashrc` (such as by running `nano ~/.bashrc`) and add this at/near the
+end:
 
     ```bash
     # add information to the prompt about the current git repository, if any
