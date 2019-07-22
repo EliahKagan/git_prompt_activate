@@ -14,7 +14,9 @@
 # On Debian-based systems this is usually already sourced and needn't be again.
 # . /usr/lib/git-core/git-sh-prompt
 
+# shellcheck disable=SC2016  # It is intended that this not be expanded here.
 git_prompt_part='$(__git_ps1 " (%s)")'
+
 case "$TERM" in xterm-color|*-256color) # See color_prompt in Debian's .bashrc.
     git_prompt_part='\[\033[36m\]'"$git_prompt_part"'\[\033[0m\]';;
 esac
