@@ -1,7 +1,5 @@
-# .git_prompt_activate.bash
-# Makes prompts support showing information about the current git repository.
-#
-# This file is part of git_prompt_activate (puts formatted __git_ps1 in $PS1).
+# .git_prompt_activate.bash - puts formatted __git_ps1 in $PS1
+# This enables support for showing git repo status in the shell prompt.
 #
 # Written in 2019 by Eliah Kagan <degeneracypressure@gmail.com>.
 #
