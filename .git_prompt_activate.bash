@@ -12,6 +12,7 @@
 # <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 # On Debian-based systems this is usually already sourced and needn't be again.
+# Uncomment only if necessary.
 # . /usr/lib/git-core/git-sh-prompt
 
 # shellcheck disable=SC2016  # It is intended that this not be expanded here.
