@@ -11,11 +11,14 @@
 # with this software. If not, see
 # <http://creativecommons.org/publicdomain/zero/1.0/>.
 
+# shellcheck shell=bash
+# shellcheck disable=SC2034  # GIT_PS1_ vars will be assigned for later use.
+# shellcheck disable=SC2016  # PS1 will contain $ syntax for later expansion.
+
 # On Debian-based systems this is usually already sourced and needn't be again.
 # Uncomment only if necessary.
 # . /usr/lib/git-core/git-sh-prompt
 
-# shellcheck disable=SC2016  # It is intended that this not be expanded here.
 git_prompt_part='$(__git_ps1 " (%s)")'
 
 case "$TERM" in xterm-color|*-256color) # See color_prompt in Debian's .bashrc.
