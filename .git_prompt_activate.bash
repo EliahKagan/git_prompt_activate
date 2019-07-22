@@ -20,7 +20,6 @@
 # . /usr/lib/git-core/git-sh-prompt
 
 git_prompt_part='$(__git_ps1 " (%s)")'
-
 case "$TERM" in xterm-color|*-256color) # See color_prompt in Debian's .bashrc.
     git_prompt_part='\[\033[36m\]'"$git_prompt_part"'\[\033[0m\]';;
 esac
