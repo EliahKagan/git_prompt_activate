@@ -32,3 +32,8 @@ end:
     # add information to the prompt about the current git repository, if any
     . ~/.git_prompt_activate.bash
     ```
+
+---
+
+For other Git-related scripts, see
+[gitscripts](https://github.com/EliahKagan/gitscripts).
