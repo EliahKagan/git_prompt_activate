@@ -13,6 +13,7 @@
 
 # shellcheck shell=bash
 # shellcheck disable=SC2034  # GIT_PS1_ vars will be assigned for later use.
+# shellcheck disable=SC2016  # PS1 will contain $ syntax for later expansion.
 
 # On Debian-based systems this is usually already sourced and needn't be again.
 # Uncomment only if necessary.
